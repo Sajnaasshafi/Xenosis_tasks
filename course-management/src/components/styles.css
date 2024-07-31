@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    padding: 20px;
+  }
+  
+  .dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .course-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .course-form input,
+  .course-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .course-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .course-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .card-detail {
+    margin: 5px 0;
+  }
+  
+  .card-description {
+    margin: 10px 0;
+  }
+  
+  .grey {
+    color: grey;
+  }
+
+  .card-edit{
+    background-color: #007bff;
+    color: #f4f4f4;
+    gap: 10px;
+  }
+
+  .card-delete{
+    background-color: #007bff;
+    color: #f4f4f4;
+    gap: 10px;
+  }
+  
