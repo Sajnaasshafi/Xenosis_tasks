@@ -1,0 +1,30 @@
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form ul li {
+    margin-bottom: 10px;
+}
+
+form ul li input,
+form ul li textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+form ul li button {
+    padding: 10px 20px;
+    background-color:#f26969;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+form ul li button:hover {
+    background-color: green;
+}
